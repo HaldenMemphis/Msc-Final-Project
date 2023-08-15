@@ -14,4 +14,3 @@ This repository includes links to the GitHub repositories of core microservices 
 | data microservice      | https://github.com/HaldenMemphis/data-microserv.git |
 
 The core code for this project exists in the repositories shown in the table above.
-
