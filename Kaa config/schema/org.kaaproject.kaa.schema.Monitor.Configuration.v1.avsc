@@ -1,0 +1,14 @@
+{
+  "type" : "record",
+  "name" : "Configuration",
+  "namespace" : "org.kaaproject.kaa.schema.Monitor",
+  "fields" : [ {
+    "name" : "MessageSendTimeMins",
+    "type" : "int",
+    "by_default" : 1
+  } ],
+  "version" : 1,
+  "dependencies" : [ ],
+  "displayName" : "Configuration V1 (Send Data Every 1 Mins)",
+  "description" : "Auto generated"
+}
