@@ -1,6 +1,8 @@
 # Msc-Final-Project
 This repository is submitted as part of the requirements for a Master's degree in Advanced Computer Science.
 
+*This project uses a modified MIT license, in which the author emphasizes potential ethical risks and data protection. Please read the content of the license before using this project.*
+
 This is the main GitHub repository of my master's project "Implementing an OpenMRS-Compatible Real-time IoT Health Data Monitoring System".
 
 This repository includes links to the GitHub repositories of core microservices developed by the author, the architectural design of this system, installation requirements and methods for this system, as well as database change files.
