@@ -29,6 +29,7 @@ The content of this repository includes:
 + Client sdk: The SDK required to connect IoT devices to this system
 + changelog:  Database change files for this project
 + properties:  The configuration files used by this project's microservices.
++ docker-compose: docker-compose file for quick startup
 
 This project also provides a simple program example written in Java to help you connect your IoT devices to this system.
 
