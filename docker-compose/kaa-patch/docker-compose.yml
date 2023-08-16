@@ -1,0 +1,9 @@
+version: '3.3'
+services:
+  clickhouse-server:
+    image: jasondennis12138/kaa-patch:latest
+    container_name: kaa-patch
+    restart: always
+    volumes:
+      - {{ log_dir }}:/home/log/kaapatch/
+      - {{ properties_dir }}:/home/msc/conf/kaapatch/

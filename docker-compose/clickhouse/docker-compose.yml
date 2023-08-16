@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  clickhouse-server:
+    image: yandex/clickhouse-server:20.8.12.2
+    container_name: clickhouse-server
+    ports:
+      - 9000:9000
+      - 8123:8123
+    restart: always
+    volumes:
+      - /etc/clickhouse-server:/etc/clickhouse-server
+      - /home/data/clickhouse:/home/data/clickhouse
+      - /home/log/clickhouse-server:/home/log/clickhouse-server

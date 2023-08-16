@@ -1,0 +1,11 @@
+version: '3.3'
+services:
+  clickhouse-server:
+    image: jasondennis12138/data-microserv:latest
+    container_name: data-microserv
+    restart: always
+    ports:
+      - 10005:10005
+    volumes:
+      - {{ log_dir }}:/home/log/kaapatch/
+      - {{ properties_dir }}:/home/msc/conf/kaapatch/

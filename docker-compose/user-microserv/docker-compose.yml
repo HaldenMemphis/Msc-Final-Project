@@ -1,0 +1,12 @@
+version: '3.3'
+services:
+  clickhouse-server:
+    image: jasondennis12138/user-microserv:latest
+    container_name: user-microserv
+    restart: always
+    ports:
+      - 10008:10008
+    volumes:
+      - {{ log_dir }}:/home/log/usermicroserv/
+      - {{ properties_dir }}:/home/msc/conf/usermicroserv/
+
