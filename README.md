@@ -15,3 +15,28 @@ This repository includes links to the GitHub repositories of core microservices 
 
 The core code for this project exists in the repositories shown in the table above.
 
+The three main Docker images of this project are located at:
+
+| Images                 | Link                                                         |
+| ---------------------- | ------------------------------------------------------------ |
+| kaa-patch microservice | https://hub.docker.com/repository/docker/jasondennis12138/kaa-patch/general |
+| user microservice      | https://hub.docker.com/repository/docker/jasondennis12138/user-microserv/general |
+| data microservice      | https://hub.docker.com/repository/docker/jasondennis12138/data-microserv/general |
+
+The content of this repository includes:
+
++ Kaa config: Configuration/Log structure in Kaa
++ Client sdk: The SDK required to connect IoT devices to this system
++ changelog:  Database change files for this project
++ properties:  The configuration files used by this project's microservices.
+
+This project also provides a simple program example written in Java to help you connect your IoT devices to this system.
+
+https://github.com/HaldenMemphis/Simulated-devices-Monitor
+
+Rough installation instructions will be provided at the following link:
+
+https://github.com/HaldenMemphis/Msc-Final-Project/blob/main/Setup.md
+
+
+
